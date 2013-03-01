@@ -1,15 +1,15 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'guard-spin-rspec/version'
+require 'guard/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "guard-spin-rspec"
-  gem.version       = Guard::Spin::Rspec::VERSION
+  gem.version       = '0.0.1'
   gem.authors       = ["Tiago Lupepic"]
   gem.email         = ["tiagolpc@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Push watched rspec files to Spin}
+  gem.summary       = %q{Push watched rspec files to Spin}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
